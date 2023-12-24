@@ -4,9 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Pricing Page</title>
+    <title>Pricing Table</title>
 </head>
 <body>
     
+    <div class="top-banner">
+        <p class="current-plan"> Your current Plan</p>
+        <p class="plan-type"> Starter Trial . 500MAUs</p>
+    </div>
+
+    <div class="container">
+      <h1 class="title">Choose a plan</h1>
+      <div class="toggle-switch">
+            <span>Billed anually </span>
+            <input type="checkbox" class="toggler">
+            <span> Billed monthly</span>
+      </div>
+
+      <div class="cards">
+
+        <!-- Starter Plan -->
+          <div class="card" id="card-1">
+            <h1 class="card-title">Starter</h1>
+            <h2 class="card-price" id="starter-price"> $19 <span> / month</span> </h2>
+            <ul class="card-plan">
+                <li> 500MAUs</li>
+                <li> 3 projects</li>
+                <li>Unlimted guides</li>
+                <li>Unlimted flows</li>
+                <li>Unlimted branded thems</li>
+                <li>Email Support</li>
+            </ul>
+            <button type="button" class="card-btn"> Choose Plan</button>
+          </div>
+
+          <!-- Pro Plan -->
+          <div class="card active" id="card-2">
+            <h1 class="card-title">Pro</h1>
+            <h2 class="card-price" id="pro-price"> $99 <span> / month</span> </h2>
+          
+            <select  id="maus">
+                <option value="500">500 MAUS</option>
+                <option value="100">1000 MAUS</option>
+                <option value="1500">1500 MAUS</option>
+                <option value="2000">2000 MAUS</option>
+                <option value="2500">2500 MAUS</option>
+            </select>
+            <span class="note"> Monthely active users </span>
+          
+            <ul class="card-plan">
+                <li> All starter featured ,Plus : </li>
+                <li> Unlimted projects</li>
+                <li>Unlimted fully customizable themes</li>
+                <li>A dedicated customer Success Manager</li>
+            </ul>
+            <button type="button" class="card-btn"> Choose Plan</button>
+          </div>
+
+          <!-- Enterpise Card -->
+          <div class="card" id="card-3">
+            <h1 class="card-title">Enterprise</h1>
+            <h2 class="card-price"> Let's Talk! </h2>
+            <ul class="card-plan">
+                <li> All pro featured</li>
+                <li> Unlimted MAUs</li>
+                <li> Detected enviroment</li>
+                <li> Enterprise account administration</li>
+                <li> Premium account and services</li>
+            </ul>
+            <button type="button" class="card-btn"> Contact Us</button>
+          </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
