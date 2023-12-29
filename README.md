@@ -28,7 +28,7 @@ The application is designed to be responsive, ensuring a seamless experience on 
 ![image](https://github.com/Chaitanya1603/PricingPageProject/assets/95305500/6d92b452-1d90-424d-8d72-df3667efe78f)
 
 
-Technologies Used:
+<b>Technologies Used:</b>
 
 HTML: Markup language for structuring the web page.
 
