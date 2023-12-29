@@ -31,6 +31,9 @@ The application is designed to be responsive, ensuring a seamless experience on 
 Technologies Used:
 
 HTML: Markup language for structuring the web page.
+
 CSS: Stylesheet language for styling the appearance of the web page.
+
 JavaScript: Scripting language for dynamic interactions and calculations.
+
 Exchange Rate API (Not Implemented): Could be used to fetch real-time exchange rates for accurate currency conversion.
